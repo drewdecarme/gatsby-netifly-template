@@ -7822,6 +7822,12 @@ postcss-reporter@^1.4.1:
     log-symbols "^1.0.2"
     postcss "^5.0.0"
 
+postcss-scss@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-1.0.3.tgz#4c00ab440fc1c994134e3d4e600c23341af6cd27"
+  dependencies:
+    postcss "^6.0.15"
+
 postcss-selector-matches@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/postcss-selector-matches/-/postcss-selector-matches-2.0.5.tgz#fa0f43be57b68e77aa4cd11807023492a131027f"
@@ -7898,7 +7904,7 @@ postcss@^5.0.0, postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.1, postcss@^6.0.13, postcss@^6.0.14:
+postcss@^6.0.1, postcss@^6.0.13, postcss@^6.0.14, postcss@^6.0.15:
   version "6.0.17"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.17.tgz#e259a051ca513f81e9afd0c21f7f82eda50c65c5"
   dependencies:

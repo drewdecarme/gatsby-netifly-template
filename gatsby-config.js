@@ -33,5 +33,14 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-react-css-modules`,
+      options: {
+        filetypes: {
+          ".scss": { syntax: `postcss-scss` },
+        },
+        exclude: `\/global\/`,
+      },
+    },
   ],
 };

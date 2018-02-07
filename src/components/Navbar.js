@@ -4,6 +4,8 @@ import Link from 'gatsby-link';
 import github from '../img/github-icon.svg';
 import logo from '../img/logo.svg';
 
+import './Navbar.module.css';
+
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
@@ -14,7 +16,7 @@ const Navbar = () => (
           </figure>
         </Link>
       </div>
-      <div className="navbar-start">
+      <div className="navbar-start" styleName="test">
         <Link className="navbar-item" to="/about">
           About
         </Link>
